@@ -1,35 +1,16 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Talk Template
-
-Use this template to structure your READMEs for talks. Remove text from this
-section, or use it to frame the talk you are giving. Good framing answers the
-question "Why am I learning this?".
-
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)). Also, include an appropriate
-`.gitignore`; these are usually found in specific technology templates, for
-example [js-template](https://www.github.com/ga-wdi-boston/js-template).
+# Interview Discussion
 
 ## Prerequisites
 
--   Topics with which developers should be familiar with.
--   Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-    Sass, I would **not** need to include CSS as a prerequisite.
--   [Links to previous materials](https://www.github.com/ga-wdi-boston/example)
-    are often useful.
+-   WDI
 
 ## Objectives
 
 By the end of this, developers should be able to:
 
--   Write objectives that focus on demonstrating knowledge.
--   Write learning objectives that begin with an [imperative
-    verb](https://en.wikipedia.org/wiki/Imperative_mood).
--   Avoid objectives that start with "Use" or "Understand".
--   Rewrite objecives that begin with "Use" by inverting sentence structure.
--   End each objective with a period.
--   Write objectives on the whiteboard so they can be referenced during a talk.
+-   Prepare for whiteboard interview questions
 
 ## Preparation
 
@@ -37,70 +18,125 @@ By the end of this, developers should be able to:
  [FAQ](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
 1.  Create a new branch, `training`, for your work.
 1.  Checkout to the `training` branch.
-1.  Install dependencies with `npm install`.
 
-Better preparation instructions may be found as
-[snippets](https://github.com/ga-wdi-boston/instructors/tree/master/snippets).
+## General Interview Process
 
-It's a good idea to have students do these steps while you're writing objectives
-on the whiteboard.
+- Apply/Recruited/Recommended
+- Phone Screen
+- In Person Interview
+- Take Home Interview
+- Final Interview
+- Offer
 
-## Leading Topic Heading
+### In Person Interview
 
-Here is where the talk begins. If you have not already included framing above,
-it's appropriate to put it here. Link to introductory articles or documentation.
-Motivate the next section.
+- Discussion
+- Code Review
+- Whiteboarding
+- Actual Coding
 
-Demos, exercises, and labs are labelled as such, followed by a colon and a
-description of the activity starting with an [imperative
-verb](https://en.wikipedia.org/wiki/Imperative_mood).
+#### Whiteboarding
 
-## Demo: Write a Demo
+- Communication and Collaboration Skills
+- Job-Specific Knowledge
+- Managing Pressure
+- Whiteboard Ability :)
 
-Demos are demonstrations, and developers should give their full attention to
-them. It's a great time for them to take notes about important concepts before
-applying them in an exercise.
+##### May Not Whiteboard
 
-Demos correspond to the "I do" portion of scaffolding from consultant training.
+- Active debate as to whether whiteboard interviews are useful
+- Front end whiteboarding such as HTML/CSS doesn't make much sense
+- High pressure, not all companies value that
 
-## Code-Along: Write an Code-Along
+##### Whiteboard Process
+- Soft questions (normally no writing)
+- Interviewer lays out a problem
+- Work through the problem with the interviewer
 
-During the code-along, developers should apply concepts covered in the previous
-demo, led by the consultant.
-This is their first chance to generalize concepts introduced. Exercises should
-be very focused, and flow natural into a lab.
+## How to Whiteboard
 
-Exercises correspond to the "We do" portion of scaffolding from consultant
-training.
+1. Repeat question
+2. Write question down
+3. Clarify question and goal
+4. Identify any knowledge gaps and ask for an explanation (math, vocabulary, etc)
+5. Talk through a high level example of a solution to get feedback
+6. Ask about language constraints
+7. Write pseudo code, explain each line to interviewer as it is being written
+8. Keep an ice box of “problems to solve”, do not fall down rabbit holes
+9. Continue communicating as you solve the problem
+10. Ask for feedback once you are done or have hit a wall
 
-## Lab: Write a Lab
+## More Than Technical
 
-During labs, developers get to demonstrate their understanding of concepts from
-demos and applied knowledge from exercises. Labs are an opportunity for
-developers to build confidence, and also serve as a diagnostic tool for
-consultants to evaluate developer understanding.
+The technical interview is about soft skills just as much as it is about your technical skills. When you get a problem to whiteboard or demonstrate how you would go about solving, here are some things to keep in mind:
 
-Labs should be timed explicitly using a timer. When estimating the time it will
-take to complete a lab, it is better to overestimate. During labs, consultants
-should circle the room and interact with developers, noting patterns and
-prompting with hints on how to complete the lab. If developers end early, a
-consultant may stop the lab timer. If developers do not finish in time, a
-consultant may give more time at her discretion based on current talk pace, the
-current estimate for the talk, and the importance of completing the lab while
-consultant support is available.
+- walk through the problem with interviewer
+- ask questions about the prompt
+- clarify the expectations re: pseudocode vs. actual syntax
+- always write down notes
+- write clearly (be mindful of space)
+- IT’S NOT ABOUT THE ANSWER, IT’S ABOUT COMMUNICATION
+- engage interviewer
+- make eye contact
+- if you have multiple interviewers, make eye contact with all of them
+- qualify what you are doing
+- always test all assumptions
+- get more out of interviewer...build the relationship
+- be honest about what you don’t know!
+- never claim to know anything you do not
+- don’t be afraid to nerd out and show the interviewer you are passionate about this stuff
 
-Labs correspond to the "You do" portion of scaffolding from consultant
-training.
+## Whiteboard Practice
+
+1.  Softballs Questions:
+    - What is jQuery?  Do you use it?  Why?
+    - What does it mean to be a front-end developer?
+    - Tell me about when you may need to use AJAX?
+
+2.  More Specific Questions:
+    - What does it mean for a website to be responsive?
+    - What is CSS specificity?
+    - Where would you link a JS file in your HTML?
+    - What does callback mean in JS?
+
+3.  Easy Whiteboard Problems
+    - Diagram what happens when someone enters google.com into their browser
+    - Create a click event that calls a function which adds two numbers
+    - Create a function that randomly chooses one item from an array of 3
+
+4.  Advanced Whiteboard Problems
+    - Ballon-o-gram
+      - Draw for me on the whiteboard the design of GA home page, without revealing me any sensitive detail.
+    - Math
+      - You have a bowl with 200 fish in it. Of these fish 99% are not guppies.  How many fish should you remove so that 2% of what remains are guppies. Show your work.
+
+## Mock Interviews
+
+Instructors will lead mock interviews.
 
 ## Additional Resources
+- Interview Practice
+    - [Interview.io](https://interviewing.io/)
+    - [Interview Cake](https://www.interviewcake.com/)
+    - [Tech Inverview Handbook](https://github.com/yangshun/tech-interview-handbook)
+    - [Front End Interview Handbook](http://khan4019.github.io/front-end-Interview-Questions/)
+    - [Questions for Node Devs](https://www.reddit.com/r/node/comments/217uav/questions_that_a_node_dev_should_be_able_to/)
+    - [How to prepare for tech interviews](https://www.reddit.com/r/cscareerquestions/comments/1jov24/heres_how_to_prepare_for_tech_interviews/)
 
--   Any useful links should be included in the talk material where the link is
-    first referenced.
--   Additional links for further study or exploration are appropriate in this
-    section.
--   Links to important parts of documentation not covered during the talk, or
-    tools tangentially used but not part of the focus of the talk, are also
-    appropriate.
+- Code Practice
+    - [Code Wars](http://www.codewars.com/)
+    - [Coderbyte](https://coderbyte.com/)
+    - [Code Eval](https://www.hirevue.com/products/assessments/online-interview-coding-tests)
+    - [Random Challenge](https://tevko.github.io/practice/)
+    - [Exercism.io](http://exercism.io/)
+    - [Hacker Rank](https://www.hackerrank.com/)
+    - [Leet Algorithms](https://leetcode.com/problemset/algorithms/)
+    - [JS Assessment](https://github.com/rmurphey/js-assessment)
+- Videos
+    - [Answering Tricky JS Interview Questions](https://www.youtube.com/watch?v=MY0UBGX2FtA)
+    - [Live Mock Technical Interview](https://www.youtube.com/watch?v=057Rs6CgJnY)
+- Humor
+    - [Ruby Interview Joke Gem](https://github.com/ruby-jokes/job_interview)
 
 ## [License](LICENSE)
 
